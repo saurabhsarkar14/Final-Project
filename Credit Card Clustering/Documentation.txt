@@ -1,0 +1,45 @@
+
+**Title: Credit Card Customer Segmentation**
+
+**Introduction:**
+In this project, we aim to segment credit card customers based on their spending behavior. Customer segmentation is a crucial task in marketing and customer relationship management, as it helps businesses tailor their products and services to specific customer groups.
+
+**Dataset:**
+We used a dataset containing information about credit card customers, including their balances, purchase behavior, credit limits, and more. The dataset consists of 8950 entries and 18 features.
+
+**Data Preprocessing:**
+1. Removed the 'CUST_ID' column as it was not relevant for clustering.
+2. Handled missing values in the 'CREDIT_LIMIT' and 'MINIMUM_PAYMENTS' columns by dropping rows with missing 'CREDIT_LIMIT' values and filling missing 'MINIMUM_PAYMENTS' values with the median.
+3. Applied log transformation to certain features to normalize their distributions.
+
+**Exploratory Data Analysis (EDA):**
+1. Conducted EDA to understand the distribution and relationships between features.
+2. Visualized feature distributions using kernel density plots.
+3. Explored feature correlations using a heatmap.
+
+**Dimensionality Reduction:**
+1. Used Principal Component Analysis (PCA) to reduce the dimensionality of the dataset while preserving 95% of the variance.
+2. Transformed the dataset using PCA.
+
+**Clustering:**
+1. Employed KMeans clustering algorithm to segment customers into distinct clusters.
+2. Utilized the elbow method and silhouette scores to determine the optimal number of clusters.
+3. Chose the number of clusters based on the results of the elbow method and silhouette scores.
+
+**Evaluation:**
+1. Evaluated the quality of the clusters using silhouette score and Davies-Bouldin index.
+2. Interpreted the silhouette score and Davies-Bouldin index to assess the effectiveness of the clustering algorithm.
+
+**Visualization:**
+1. Visualized the clusters based on specific features, such as one-off purchases versus total purchases and credit limit versus total purchases.
+2. Used scatterplots to illustrate the distribution of clusters in the feature space.
+
+**Conclusion:**
+In conclusion, the clustering analysis revealed distinct segments of credit card customers based on their spending behavior. The identified clusters can help businesses personalize their marketing strategies and tailor their offerings to better meet the needs of different customer segments.
+
+**Future Steps:**
+1. Further refine the clustering algorithm and explore alternative methods.
+2. Incorporate additional features or external data sources to enhance the segmentation.
+3. Continuously monitor and update the clustering model to adapt to changing customer behaviors and market trends.
+
+This comprehensive documentation serves as a reference for stakeholders and provides insights for future analysis and decision-making.
