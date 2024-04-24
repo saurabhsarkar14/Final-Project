@@ -58,5 +58,5 @@ Saurabh Sarkar
 This project is licensed under the MIT License - see the LICENSE.md file for details.
 
 **Acknowledgments:**
-- Special thanks to [Acknowledgment 1]
-- [Acknowledgment 2 (if applicable)]
+- Special thanks to dsmentors GUVI, Google, ChatGPT, Anaconda
+
