@@ -28,16 +28,16 @@ This repository contains three machine learning projects focused on different ta
 **Repository Structure:**
 
 - **Classification_Model:** Contains code files and documentation related to the Loan Status Prediction project.
-  - `loan_status_prediction.ipynb`: Jupyter notebook containing code for data preprocessing, model training, and evaluation.
-  - `loan_status_prediction.docx`: Word document detailing model performance and insights.
+  - `Loan Status Prediction.ipynb`: Jupyter notebook containing code for data preprocessing, model training, and evaluation.
+  - `Documentation.txt`: Text document detailing model performance and insights.
 
 - **Regression_Model:** Contains code files and documentation related to the Sales Forecasting project.
-  - `sales_forecasting.ipynb`: Jupyter notebook with code for data preprocessing, model building, and evaluation.
-  - `sales_forecasting.docx`: Word document summarizing model performance and insights.
+  - `Sales Forecasting.ipynb`: Jupyter notebook with code for data preprocessing, model building, and evaluation.
+  - `Documentation.txt`: Text document summarizing model performance and insights.
 
 - **Clustering_Model:** Contains code files and documentation related to the Customer Segmentation project.
-  - `customer_segmentation.ipynb`: Jupyter notebook containing code for data preprocessing, clustering, and analysis.
-  - `customer_segmentation.docx`: Word document presenting segmentation results and strategic recommendations.
+  - `Credit Card Customer Segmentation.ipynb`: Jupyter notebook containing code for data preprocessing, clustering, and analysis.
+  - `Documentation.txt`: Text document presenting segmentation results and strategic recommendations.
 
 - **Data:** Directory containing the datasets used in the projects (`stores.csv`, `features.csv`, `train.csv`).
 
